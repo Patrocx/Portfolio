@@ -255,7 +255,16 @@
           animation: navFadeIn 0.25s 0.4s cubic-bezier(0.92, 0.39, 0.46, 0.99) forwards;
 }
 
+.nav-container.open .nav-background .menu ul {
+  margin-top: 5vw;
+}
+
+.nav-container.open .nav-background .menu ul li {
+  margin-bottom: 3vw;
+}
+
 .nav-container.open .nav-background .menu ul li h2 {
+  text-align: center;
   color: black;
   opacity: 0;
   position: relative;
